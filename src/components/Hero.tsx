@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50/30 to-purple-50/30 dark:from-slate-900/50 dark:to-slate-800/50 backdrop-blur-sm">
+    <section className="hero-bg section-overlay relative min-h-screen flex items-center justify-center backdrop-blur-sm">
       <div className="container mx-auto px-4 py-20">
         <div className="text-center max-w-4xl mx-auto">
           <div className="flex justify-center space-x-4 mb-8">
