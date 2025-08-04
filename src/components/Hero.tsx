@@ -48,23 +48,6 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in delay-700">
-            <Button 
-              size="lg" 
-              className="group"
-              onClick={() => scrollToSection('about')}
-            >
-              Explore Our Work 
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              onClick={() => scrollToSection('tools')}
-            >
-              View Tools
-            </Button>
-          </div>
         </div>
       </div>
       
