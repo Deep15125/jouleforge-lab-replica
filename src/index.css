@@ -107,8 +107,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    background: var(--gradient-primary);
+    background: 
+      linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.8)),
+      url('./assets/energy-background.jpg'),
+      var(--gradient-primary);
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     min-height: 100vh;
   }
 }
