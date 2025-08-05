@@ -1,11 +1,11 @@
 
-import { Mail, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, Phone, MessageCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-background">
+    <section id="contact" className="py-20 contact-bg">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -40,6 +40,55 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
+                  <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
+                    <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">LinkedIn</p>
+                    <a 
+                      href="https://www.linkedin.com/in/raj-gupta-8b8503113/" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      Connect on LinkedIn
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="p-3 bg-green-100 dark:bg-green-900 rounded-lg">
+                    <Phone className="h-6 w-6 text-green-600 dark:text-green-400" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Phone</p>
+                    <a 
+                      href="tel:+917696871346" 
+                      className="text-green-600 hover:text-green-800 transition-colors"
+                    >
+                      +91 76968 71346
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="p-3 bg-green-100 dark:bg-green-900 rounded-lg">
+                    <MessageCircle className="h-6 w-6 text-green-600 dark:text-green-400" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">WhatsApp</p>
+                    <a 
+                      href="https://wa.me/+917696871346" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-green-600 hover:text-green-800 transition-colors"
+                    >
+                      Chat on WhatsApp
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
                   <div className="p-3 bg-gray-100 dark:bg-gray-800 rounded-lg">
                     <Github className="h-6 w-6 text-gray-600 dark:text-gray-400" />
                   </div>
@@ -50,21 +99,6 @@ const ContactSection = () => {
                       className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
                     >
                       @jouleforgelab
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                    <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-foreground">LinkedIn</p>
-                    <a 
-                      href="#" 
-                      className="text-blue-600 hover:text-blue-800 transition-colors"
-                    >
-                      JouleForge Lab
                     </a>
                   </div>
                 </div>
