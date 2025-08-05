@@ -4,11 +4,22 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const ToolsSection = () => {
+  const handleEvapCalDownload = () => {
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/uc?export=download&id=1fNIr46rP7dCHmYSizbd4AUA3lzTGXadI';
+    link.download = 'EvapCal-Tool.exe';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const tools = [
     {
       icon: Thermometer,
       name: "EvapCal Tool",
-      description: "Advanced evapotranspiration calculations for climate analysis"
+      description: "Advanced evapotranspiration calculations for climate analysis",
+      isDownloadable: true,
+      onClick: handleEvapCalDownload
     },
     {
       icon: Calculator,
@@ -59,8 +70,13 @@ const ToolsSection = () => {
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     {tool.description}
                   </p>
-                  <Button variant="outline" size="sm" className="w-full">
-                    Learn More
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="w-full"
+                    onClick={tool.onClick}
+                  >
+                    {tool.isDownloadable ? 'Download Tool' : 'Learn More'}
                   </Button>
                 </CardContent>
               </Card>
