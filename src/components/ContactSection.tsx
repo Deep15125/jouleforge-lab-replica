@@ -25,8 +25,8 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                    <Mail className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                  <div className="p-3 bg-blue-500 rounded-lg">
+                    <Mail className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
@@ -40,8 +40,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                    <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                  <div className="p-3 bg-blue-500 rounded-lg">
+                    <Linkedin className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">LinkedIn</p>
@@ -57,8 +57,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-green-100 dark:bg-green-900 rounded-lg">
-                    <Phone className="h-6 w-6 text-green-600 dark:text-green-400" />
+                  <div className="p-3 bg-green-500 rounded-lg">
+                    <Phone className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Phone</p>
@@ -72,8 +72,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-green-100 dark:bg-green-900 rounded-lg">
-                    <MessageCircle className="h-6 w-6 text-green-600 dark:text-green-400" />
+                  <div className="p-3 bg-green-500 rounded-lg">
+                    <MessageCircle className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">WhatsApp</p>
@@ -89,8 +89,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-gray-100 dark:bg-gray-800 rounded-lg">
-                    <Github className="h-6 w-6 text-gray-600 dark:text-gray-400" />
+                  <div className="p-3 bg-gray-600 rounded-lg">
+                    <Github className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">GitHub</p>
@@ -116,21 +116,21 @@ const ContactSection = () => {
                 </p>
                 
                 <div className="space-y-4">
-                  <div className="p-4 bg-muted rounded-lg">
+                  <div className="p-4 bg-blue-50 dark:bg-blue-900/50 rounded-lg border border-blue-200 dark:border-blue-800">
                     <h4 className="font-semibold text-foreground mb-2">Research Partnerships</h4>
                     <p className="text-sm text-muted-foreground">
                       Collaborate on cutting-edge research in energy and climate
                     </p>
                   </div>
                   
-                  <div className="p-4 bg-muted rounded-lg">
+                  <div className="p-4 bg-green-50 dark:bg-green-900/50 rounded-lg border border-green-200 dark:border-green-800">
                     <h4 className="font-semibold text-foreground mb-2">Custom Solutions</h4>
                     <p className="text-sm text-muted-foreground">
                       Tailored tools and simulations for your specific needs
                     </p>
                   </div>
                   
-                  <div className="p-4 bg-muted rounded-lg">
+                  <div className="p-4 bg-purple-50 dark:bg-purple-900/50 rounded-lg border border-purple-200 dark:border-purple-800">
                     <h4 className="font-semibold text-foreground mb-2">Consulting Services</h4>
                     <p className="text-sm text-muted-foreground">
                       Expert guidance on sustainability and energy efficiency

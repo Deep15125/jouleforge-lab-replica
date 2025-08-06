@@ -11,7 +11,7 @@ const AboutSection = () => {
               Who We Are
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A research-rooted, tech-forward lab initiated by a PhD scholar, under expert 
+              A research-rooted, tech-forward lab initiated by a Research scholar, under expert 
               academic mentorship, on a mission to simplify sustainability and forge data into impact.
             </p>
           </div>
@@ -20,8 +20,8 @@ const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">Our Mission</h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                From advanced climate classification and energy modelling to BIPV façade 
-                simulations and energy analysis tools, we bridge the gap between environmental 
+                From advanced climate classification and energy modelling to 
+                simulations and energy analysis tools, we bridge the gap between environmental
                 complexity and human clarity.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -31,9 +31,9 @@ const AboutSection = () => {
             </div>
             
             <div className="grid gap-6">
-              <div className="flex items-start space-x-4 p-6 bg-card rounded-lg border">
-                <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                  <Target className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+              <div className="flex items-start space-x-4 p-6 bg-blue-50 dark:bg-blue-900/50 rounded-lg border border-blue-200 dark:border-blue-800">
+                <div className="p-2 bg-blue-500 rounded-lg">
+                  <Target className="h-6 w-6 text-white" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Purpose-Driven</h4>
@@ -43,9 +43,9 @@ const AboutSection = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4 p-6 bg-card rounded-lg border">
-                <div className="p-2 bg-green-100 dark:bg-green-900 rounded-lg">
-                  <Users className="h-6 w-6 text-green-600 dark:text-green-400" />
+              <div className="flex items-start space-x-4 p-6 bg-green-50 dark:bg-green-900/50 rounded-lg border border-green-200 dark:border-green-800">
+                <div className="p-2 bg-green-500 rounded-lg">
+                  <Users className="h-6 w-6 text-white" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Collaborative</h4>
@@ -55,9 +55,9 @@ const AboutSection = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4 p-6 bg-card rounded-lg border">
-                <div className="p-2 bg-purple-100 dark:bg-purple-900 rounded-lg">
-                  <Lightbulb className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+              <div className="flex items-start space-x-4 p-6 bg-purple-50 dark:bg-purple-900/50 rounded-lg border border-purple-200 dark:border-purple-800">
+                <div className="p-2 bg-purple-500 rounded-lg">
+                  <Lightbulb className="h-6 w-6 text-white" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Innovation-First</h4>

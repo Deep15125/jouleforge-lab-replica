@@ -29,7 +29,7 @@ const ProjectsSection = () => {
 
           <div className="grid gap-8">
             {projects.map((project, index) => (
-              <Card key={index} className="group hover:shadow-xl transition-all duration-300">
+              <Card key={index} className="group hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-background to-muted/50 border-primary/20">
                 <CardHeader>
                   <div className="flex items-start justify-between">
                     <div className="flex-1">
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
                     {project.tags.map((tag, tagIndex) => (
                       <span 
                         key={tagIndex}
-                        className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"
+                        className="px-3 py-1 bg-primary text-primary-foreground text-sm rounded-full shadow-sm"
                       >
                         {tag}
                       </span>

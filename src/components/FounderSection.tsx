@@ -37,7 +37,7 @@ const FounderSection = () => {
                 <h3 className="text-3xl font-bold text-foreground mb-2">Raj Gupta</h3>
                 <p className="text-xl text-primary font-semibold mb-4">Founder & CEO, JouleForge Lab</p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Raj is a PhD scholar passionate about sustainable technology and climate solutions. 
+                  Raj is a Research scholar passionate about sustainable technology and climate solutions. 
                   With deep expertise in energy modeling, building performance analysis, and data science, 
                   he founded JouleForge Lab to bridge the gap between academic research and practical applications.
                 </p>
@@ -49,19 +49,19 @@ const FounderSection = () => {
 
               {/* Key Highlights */}
               <div className="grid gap-4">
-                <div className="flex items-center space-x-3 p-4 bg-card rounded-lg border">
-                  <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                    <GraduationCap className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+                <div className="flex items-center space-x-3 p-4 bg-blue-50 dark:bg-blue-900/50 rounded-lg border border-blue-200 dark:border-blue-800">
+                  <div className="p-2 bg-blue-500 rounded-lg">
+                    <GraduationCap className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">PhD Scholar</h4>
-                    <p className="text-sm text-muted-foreground">Advancing research in sustainable technology</p>
+                    <h4 className="font-semibold text-foreground">Research Scholar</h4>
+                    <p className="text-sm text-muted-foreground"></p>
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-3 p-4 bg-card rounded-lg border">
-                  <div className="p-2 bg-green-100 dark:bg-green-900 rounded-lg">
-                    <Award className="h-5 w-5 text-green-600 dark:text-green-400" />
+                <div className="flex items-center space-x-3 p-4 bg-green-50 dark:bg-green-900/50 rounded-lg border border-green-200 dark:border-green-800">
+                  <div className="p-2 bg-green-500 rounded-lg">
+                    <Award className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Industry Expert</h4>
@@ -69,9 +69,9 @@ const FounderSection = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-3 p-4 bg-card rounded-lg border">
-                  <div className="p-2 bg-purple-100 dark:bg-purple-900 rounded-lg">
-                    <Target className="h-5 w-5 text-purple-600 dark:text-purple-400" />
+                <div className="flex items-center space-x-3 p-4 bg-purple-50 dark:bg-purple-900/50 rounded-lg border border-purple-200 dark:border-purple-800">
+                  <div className="p-2 bg-purple-500 rounded-lg">
+                    <Target className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Visionary Leader</h4>

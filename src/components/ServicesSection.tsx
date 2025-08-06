@@ -32,10 +32,10 @@ const ServicesSection = () => {
 
   const getColorClasses = (color: string) => {
     const colorMap: { [key: string]: string } = {
-      blue: "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400",
-      green: "bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400",
-      purple: "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400",
-      orange: "bg-orange-100 dark:bg-orange-900 text-orange-600 dark:text-orange-400"
+      blue: "bg-blue-500 text-white",
+      green: "bg-green-500 text-white",
+      purple: "bg-purple-500 text-white",
+      orange: "bg-orange-500 text-white"
     };
     return colorMap[color] || colorMap.blue;
   };
@@ -56,9 +56,9 @@ const ServicesSection = () => {
 
           <div className="grid lg:grid-cols-2 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br from-background to-muted/50">
                 <CardHeader>
-                  <div className={`w-12 h-12 rounded-lg ${getColorClasses(service.color)} flex items-center justify-center mb-4`}>
+                  <div className={`w-12 h-12 rounded-lg ${getColorClasses(service.color)} flex items-center justify-center mb-4 shadow-lg`}>
                     <service.icon className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-xl font-bold">{service.title}</CardTitle>

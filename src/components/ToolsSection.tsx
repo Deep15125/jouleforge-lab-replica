@@ -59,10 +59,10 @@ const ToolsSection = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {tools.map((tool, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br from-background to-muted/50 border-primary/20">
                 <CardHeader className="pb-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                    <tool.icon className="h-6 w-6 text-primary" />
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4 shadow-lg">
+                    <tool.icon className="h-6 w-6 text-primary-foreground" />
                   </div>
                   <CardTitle className="text-lg font-semibold">{tool.name}</CardTitle>
                 </CardHeader>

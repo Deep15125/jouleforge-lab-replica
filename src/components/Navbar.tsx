@@ -29,7 +29,12 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/84c091b2-9000-4d37-97de-d4cbe836152e.png" 
+              alt="JouleForge Lab Logo" 
+              className="h-10 w-auto"
+            />
             <h1 className="text-2xl font-bold text-primary">JouleForge Lab</h1>
           </div>
           
