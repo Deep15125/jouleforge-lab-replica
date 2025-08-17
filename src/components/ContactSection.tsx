@@ -19,7 +19,7 @@ const ContactSection = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="group hover:shadow-lg transition-all duration-300">
+            <Card className="group hover:shadow-lg transition-all duration-300 bg-gradient-to-br from-blue-50/80 to-indigo-50/90 border-blue-100/50">
               <CardHeader>
                 <CardTitle className="text-2xl font-bold">Contact Information</CardTitle>
               </CardHeader>
@@ -105,7 +105,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="group hover:shadow-lg transition-all duration-300">
+            <Card className="group hover:shadow-lg transition-all duration-300 bg-gradient-to-br from-green-50/80 to-emerald-50/90 border-green-100/50">
               <CardHeader>
                 <CardTitle className="text-2xl font-bold">Let's Collaborate</CardTitle>
               </CardHeader>
