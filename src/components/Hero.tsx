@@ -26,13 +26,14 @@ const Hero = () => {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in">
-            JouleForge Lab
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in delay-200">
-            Turning Complexity into Clarity
-          </p>
+          <div className="animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-2">
+              JouleForge Lab
+            </h1>
+            <p className="text-2xl md:text-3xl text-primary font-semibold">
+              Turning Complexity into Clarity
+            </p>
+          </div>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-fade-in delay-300">
             with Data, Energy, and Intelligence
